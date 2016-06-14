@@ -2,4 +2,5 @@ sudo: required
 language: python
 services:
     - docker
-docker run pallavagarwal07/gentoo-stabilization
+script:
+    - docker run -it pallavagarwal07/gentoo-stabilization
